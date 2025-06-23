@@ -26,14 +26,13 @@ The **CP2102** is a popular single-chip USB to UART bridge manufactured by **Sil
 
 ---
 
-## 📦 Folder Contents
-
-|  File/Folder |     Description    |     
-|--------------|--------------------|
-| `.kicad_pro` | KiCad project file |
-| `.kicad_sch` | Schematic          |
-| `.kicad_pcb` | PCB layout         |
-| `gerbers/`   | Folder containing Gerber files and drill data for fabrication |
+| File/Folder  | Description                                                                 |
+| ------------ | --------------------------------------------------------------------------- |
+| `.kicad_pro` | KiCad project file (project configuration)                                  |
+| `.kicad_sch` | Schematic file (circuit design)                                             |
+| `.kicad_pcb` | PCB layout file (2D + 3D design of the board)                               |
+| `gerbers/`   | Folder containing Gerber files and drill data for PCB fabrication           |
+| `.step`      | 3D model of the assembled PCB for enclosure design and mechanical CAD usage |
 
 ---
 
@@ -76,6 +75,14 @@ This hardware design is open source and released under the **MIT License**. You 
 ## 🖼️ Preview
 
 3d Images are added with FRONT,BACK,and ISOMETRIC views.
+
+---
+🔗 GrabCAD Model (3D STEP File)
+
+Check out the 3D model of this project on my GrabCAD profile:
+👉 https://grabcad.com/maathes.thilak-1
+
+You can view, download, and integrate the .STEP file for enclosure development or CAD simulation.
 
 ---
 
